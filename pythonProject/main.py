@@ -1,4 +1,5 @@
 import pyodbc
+from SQLServer import sqls
 
 def print_hi(name):
     print(f'Execution Start, {name}')  
@@ -7,6 +8,7 @@ def print_hi(name):
     cursor.execute('SELECT * FROM Posts')
     for row in cursor:
         print(row)
+    sqlss = sqls.sqlServ
 
 if __name__ == '__main__':
     print_hi('PyCharm')
