@@ -1,0 +1,39 @@
+{
+    "Permanent_Address": {
+      "House_Number": "10",
+      "City": "Itanagar",
+      "State": "Arunachal Pradesh",
+      "Country": "India",
+      "PhoneNumber": [
+        {
+          "Std_Code": "0366",
+          "Home": "213660",
+          "Mobile": "277562"
+        },
+        {
+          "Std_Code": "0366",
+          "Home": "99886612",
+          "Mobile": "1234633"
+        }
+      ]
+    },
+    "Current_Address": {
+      "House_Number": "10",
+      "City": "Itanagar",
+      "State": "Arunachal Pradesh",
+      "Country": "India",
+      "PhoneNumber": [
+        {
+          "Std_Code": "0366",
+          "Home": "213660",
+          "Mobile": "277562"
+        },
+        {
+          "Std_Code": "0366",
+          "Home": "99886612",
+          "Mobile": "1234633"
+        }
+      ]
+    },
+    "stId": "520627"
+  }
