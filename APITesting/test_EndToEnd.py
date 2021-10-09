@@ -10,10 +10,13 @@ def test_add_new_std():
    json_request = json.loads(fileStd.read())
    response = requests.post(STUDENT_API_URL,json_request)
    id = jsonpath.jsonpath(response.json(),'id')
+   print(id[0])
 
    TECH_API_URL = "http://thetestingworldapi.com/api/technicalskills"
    fileTech = open('C://Users//Angsuman//PycharmProjects//APITesting//requestAPITect.json','r')
    json_request = json.loads(fileTech.read())
+   json_request['id'] = int(id[0])
+   json_request['st_id'] = id[0]
    response = requests.post(TECH_API_URL,json_request)
    
    ADDRESS_API_URL = "http://thetestingworldapi.com/api/addresses"

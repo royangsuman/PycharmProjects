@@ -1,0 +1,39 @@
+{
+    "Permanent_Address": {
+      "House_Number": "10",
+      "City": "Itanagar",
+      "State": "Arunachal",
+      "Country": "INDIA",
+      "PhoneNumber": [
+        {
+          "Std_Code": "03216",
+          "Home": "213660",
+          "Mobile": "277562"
+        },
+        {
+          "Std_Code": "03216",
+          "Home": "987145",
+          "Mobile": "3424333"
+        }
+      ]
+    },
+    "Current_Address": {
+      "House_Number": "sample string 1",
+      "City": "sample string 2",
+      "State": "sample string 3",
+      "Country": "sample string 4",
+      "PhoneNumber": [
+        {
+          "Std_Code": "sample string 1",
+          "Home": "sample string 2",
+          "Mobile": "sample string 3"
+        },
+        {
+          "Std_Code": "sample string 1",
+          "Home": "sample string 2",
+          "Mobile": "sample string 3"
+        }
+      ]
+    },
+    "stId": "520870"
+  }
